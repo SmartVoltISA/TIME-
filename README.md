@@ -22,9 +22,15 @@ SYSTEM-FOUNDATION → difference → boundary → state → relation → change 
 - Ω-TIME-017 — relativistic control: proper time as invariant geometric measure; Ω has not derived Lorentzian spacetime.
 - Ω-TIME-018 — quantum control: arrow of time is not identical to temporal measure.
 - Ω-TIME-019 — provisional synthesis and explicit boundary of what has and has not been derived.
+- Ω-TIME-020 — negative control: a positive graph Laplacian does not generate Lorentzian signature or a causal cone by itself.
 
 ## Current synthesis
 Время пока наиболее строго описывается как мера согласованного изменения состояния вдоль причинно допустимой траектории. Это рабочая модель, а не окончательное утверждение о фундаментальной природе времени.
+
+## Current boundary
+Ключевой нерешённый вопрос: откуда фундаментально возникает инвариантная мера `μ` и минимальная структура, способная породить причинный конус без его предварительного введения.
+
+Ω-TIME-020 показал важное ограничение: обычная положительная графовая метрика естественно даёт риманову/евклидову структуру. Для лоренцевой причинности нужен дополнительный инвариант — знак, динамическое ограничение, ориентация или эквивалентная структура. Пока это не выведено из Ω-фундамента.
 
 ## Rule
 FACT → CHECK → RESULT → DECISION → FIXATION.

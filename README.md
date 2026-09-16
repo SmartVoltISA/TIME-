@@ -34,35 +34,52 @@ SYSTEM-FOUNDATION → difference → boundary → state → relation → change 
 - Ω-TIME-030 — minimality control: for the two-channel class `A=[[0,a],[b,0]]`, real nonzero ± characteristics occur exactly when `ab>0`; one channel or `ab<0` fails to produce the required hyperbolic class. The origin of `ab>0` remains OPEN.
 - Ω-TIME-031 — structural derivation control: for a local two-channel system with positive quadratic resource `G>0` and conservation compatibility `GA=(GA)ᵀ`, nonzero mutual coupling forces `ab>0`; arbitrary coefficient averaging can destroy the effective sign, while coarse-graining that preserves the resource/conservation structure retains the class. The fundamental origin of `G>0` and conservation remains OPEN.
 - Ω-TIME-032 — deeper structural control: difference/boundary naturally generate a nonnegative quadratic relational measure `DᵀD`; pairwise exchange gives conservation by flux cancellation; with complete positive resource coverage and a shared symmetric coupling form, `ab>0` follows without manual sign insertion. Strict positivity, conservation as a fundamental law, and the unique origin of the shared coupling remain OPEN.
+- Ω-TIME-033 — minimality of positive relational resource: difference does not uniquely select a quadratic scalar; positive resource plus common symmetric coupling is sufficient for `ab>0`; completeness is required for strict positivity; valuation and conservation remain distinct.
+- Ω-TIME-034 — boundary/accessibility control: admissible transition structure does not by itself generate a scalar capacity; cardinality, rank, entropy and metric cost require additional structure. Scalarization is isolated as a genuine missing layer.
+- Ω-TIME-035 — conditional quadratic derivation: positivity + continuity + independent additivity + full orthogonal equivalence force a quadratic valuation class up to an arbitrary positive scale; without the stronger composition/equivalence assumptions, many valuations survive.
+- Ω-TIME-036 — reciprocity control: one shared incidence relation gives opposite balance signs and exact conservation of the represented additive total; independent directed processes and source/sink terms break automatic conservation. Reciprocity does not determine transfer magnitude.
+- Ω-TIME-037 — shared-event attack: boundary/difference alone do not force a shared transfer event. Conditional on a closed elementary event with an additive conserved balance and no net source/sink, the two-state zero-sum subspace uniquely yields reciprocal `(-J,+J)` exchange. Memory can modify the constitutive law without breaking conservation if incidence is preserved; arbitrary directed coupling and arbitrary coarse-graining do not preserve it.
 
 ## Current synthesis
 Время пока наиболее строго описывается как мера согласованного изменения состояния вдоль причинно допустимой траектории. Это рабочая модель, а не окончательное утверждение о фундаментальной природе времени.
 
 ## Current boundary
-Ключевой нерешённый вопрос: откуда фундаментально возникает инвариантная мера `μ` и минимальная структура, способная породить причинный конус без его предварительного введения.
+Ключевой нерешённый вопрос теперь локализован ниже времени:
+
+`Ω-foundation → closure + additive conservation + scalarization`
+
+Затем:
+
+`positive valuation → compatible coupling → ab>0 → hyperbolic propagation → causal admissibility → temporal measure`.
 
 Ω-TIME-020 показал: обычная положительная графовая метрика естественно даёт риманову/евклидову структуру. Для лоренцевой причинности нужен дополнительный инвариант — знак, динамическое ограничение, ориентация или эквивалентная структура.
 
 Ω-TIME-023/024 показали: конечная скорость может возникать как отношение структурных свойств `K/M`, а не как независимо заданная величина. Но выбор `M` и `K` пока остаётся модельным предположением.
 
-Ω-TIME-025 уточнил: причинный конус можно связать с вещественным характеристическим спектром локальной динамики. Кососимметричная связь сама по себе этого не даёт. Поэтому следующий фундаментальный вопрос — источник гиперболического класса динамики.
+Ω-TIME-025 уточнил: причинный конус можно связать с вещественным характеристическим спектром локальной динамики. Кососимметричная связь сама по себе этого не даёт.
 
-Ω-TIME-026 проверил более сильную гипотезу: один и тот же relational operator может участвовать в эффективной инерции и восстановлении. Это работает математически, но пока не является выводом из Ω-фундамента.
+Ω-TIME-027 подтвердил: перепараметризационно-инвариантный вариационный принцип может реконструировать временной параметр из траектории, но не выбирает автоматически лоренцеву сигнатуру.
 
-Ω-TIME-027 сделал следующий контроль: перепараметризационно-инвариантный вариационный принцип позволяет реконструировать времеподобный параметр из траектории и структурной меры. Но положительная вариационная структура не выбирает автоматически лоренцеву сигнатуру или гиперболический класс. Ручная вставка отрицательного знака считается предположением, а не выводом.
+Ω-TIME-030 установил точный критерий `ab>0` внутри минимального двухканального класса.
 
-Ω-TIME-028 показал: простая разность не порождает лоренцев знак, но конкретная симметричная двухканальная реляционная динамика может дать вещественный спектр `±g`, то есть минимальную двунаправленную характеристическую структуру.
+Ω-TIME-031 связал этот знак с положительной сохраняемой квадратичной формой и динамической совместимостью.
 
-Ω-TIME-029 усилил этот результат: сопряжённая двухканальная система с одной и той же структурой связи даёт `q_ddot = g² q_xx`, реальную дисперсию `ω²=g²k²` и устойчивую положительную энергетическую форму. Это показывает структурную совместимость гиперболичности, второго порядка и устойчивости. Но это всё ещё модель, а не вывод физического пространства-времени.
+Ω-TIME-032/033 разделили три ранее смешанные вещи: distinction/boundary, scalar valuation/resource и conservation. Положительная ресурсная форма даёт нужный знак только вместе с совместимой динамикой.
 
-Ω-TIME-030 уточнил минимальность: симметрия коэффициентов не нужна. Для двухканального класса достаточно `ab>0`; при удалении канала или смене знака произведения гиперболический класс исчезает. Однако само условие `ab>0` пока является свойством выбранного класса, а не выведенной аксиомой Ω.
+Ω-TIME-034/035 показали, что числовая ёмкость не следует из одной возможности переходов, но при дополнительных принципах композиции, эквивалентности и регулярности квадратичная форма получается условно, с неопределённым общим масштабом.
 
-Ω-TIME-031 дал структурный контроль: если два канала имеют положительную квадратичную ресурсную форму `G>0`, а динамика сохраняет этот ресурс через совместимость `GA=(GA)ᵀ`, то при ненулевой связи автоматически получается `ab>0`. Это связывает гиперболический знак с положительным сохраняемым ресурсом, а не с ручной вставкой знака. Но `G>0` и сам закон сохранения пока не выведены из более ранних Ω-принципов.
-
-Ω-TIME-032 продвинул цепочку глубже: квадрат различия `||Dq||²` автоматически даёт неотрицательную relational measure `DᵀD`; полнота различения нужна для строгой `G>0`. Pairwise exchange даёт conservation через взаимное сокращение потоков. Если обмен задаётся одной общей symmetric coupling form, совместимой с положительным ресурсом, то `ab>0` получается автоматически. При этом boundary/difference без полноты не гарантируют строгую положительность, competition без общего закона связи не фиксирует знак, а произвольное усреднение коэффициентов разрушает класс.
+Ω-TIME-036/037 локализовали reciprocity: общий transfer event и incidence дают сохранение, однако сам факт того, что фундаментальное взаимодействие является одним закрытым событием, пока не выведен.
 
 ## Next fundamental question
-Ω-TIME-033 должен проверить минимальность самой конструкции ресурса. Сравнить `R=||Dq||²`, другие неотрицательные функции различия и нелинейные/графовые формы. Проверить, какие из них сохраняют conservation и `ab>0` после локальной динамики и coarse-graining. Цель — выяснить, является ли квадратичная форма `DᵀD` необходимой, или существует более широкий класс Ω-совместимых положительных ресурсов.
+Атаковать **closure** без использования слов conservation/resource/time в качестве скрытых предпосылок.
+
+Проверить:
+
+`difference → two sides → whole/closure → elementary event → zero-sum balance`
+
+против отрицательных контролей с открытой границей, источниками, независимыми directed processes и неаддитивной оценкой.
+
+Цель — определить, является ли закрытость следствием более ранней Ω-структуры (`difference → whole → feedback → new difference`) или ещё одной независимой аксиомой.
 
 ## Rule
 FACT → CHECK → RESULT → DECISION → FIXATION.

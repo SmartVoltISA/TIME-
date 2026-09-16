@@ -26,6 +26,7 @@ SYSTEM-FOUNDATION → difference → boundary → state → relation → change 
 - Ω-TIME-021 — causal propagation requires dynamical structure; locality alone is insufficient.
 - Ω-TIME-023 — finite propagation speed can arise from the ratio of effective structural stiffness and inertia; Lorentzian sign is still not derived.
 - Ω-TIME-024 — a single structural Laplacian can participate in both effective inertia and stiffness in a model; speed becomes a secondary ratio, while the fundamental origin of both remains OPEN.
+- Ω-TIME-025 — causal cone as a spectral property of hyperbolic dynamics; orientation or antisymmetry alone is insufficient.
 
 ## Current synthesis
 Время пока наиболее строго описывается как мера согласованного изменения состояния вдоль причинно допустимой траектории. Это рабочая модель, а не окончательное утверждение о фундаментальной природе времени.
@@ -36,6 +37,8 @@ SYSTEM-FOUNDATION → difference → boundary → state → relation → change 
 Ω-TIME-020 показал: обычная положительная графовая метрика естественно даёт риманову/евклидову структуру. Для лоренцевой причинности нужен дополнительный инвариант — знак, динамическое ограничение, ориентация или эквивалентная структура.
 
 Ω-TIME-023/024 показали: конечная скорость может возникать как отношение структурных свойств `K/M`, а не как независимо заданная величина. Но выбор `M` и `K` пока остаётся модельным предположением.
+
+Ω-TIME-025 уточнил: причинный конус можно связать с вещественным характеристическим спектром локальной динамики. Кососимметричная связь сама по себе этого не даёт. Поэтому следующий фундаментальный вопрос — источник гиперболического класса динамики.
 
 ## Rule
 FACT → CHECK → RESULT → DECISION → FIXATION.

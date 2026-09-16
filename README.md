@@ -29,6 +29,8 @@ SYSTEM-FOUNDATION → difference → boundary → state → relation → change 
 - Ω-TIME-025 — causal cone as a spectral property of hyperbolic dynamics; orientation or antisymmetry alone is insufficient.
 - Ω-TIME-026 — shared relational structure can model both effective inertia and restoring response; the fundamental origin of both remains OPEN.
 - Ω-TIME-027 — reparameterization-invariant variational structure can reconstruct a temporal parameter from a trajectory without an independently inserted clock; it does not by itself derive Lorentzian signature or hyperbolicity.
+- Ω-TIME-028 — opposing symmetric relational channels can produce real ± characteristics; simple difference and antisymmetric coupling do not by themselves derive Lorentzian signature.
+- Ω-TIME-029 — a minimal two-channel relational system can unify real ± characteristics, second-order wave dynamics, stability-compatible positive energy, and compatibility with a reconstructed temporal measure; universal Lorentzian geometry and absolute c remain OPEN.
 
 ## Current synthesis
 Время пока наиболее строго описывается как мера согласованного изменения состояния вдоль причинно допустимой траектории. Это рабочая модель, а не окончательное утверждение о фундаментальной природе времени.
@@ -46,8 +48,12 @@ SYSTEM-FOUNDATION → difference → boundary → state → relation → change 
 
 Ω-TIME-027 сделал следующий контроль: перепараметризационно-инвариантный вариационный принцип позволяет реконструировать времеподобный параметр из траектории и структурной меры. Но положительная вариационная структура не выбирает автоматически лоренцеву сигнатуру или гиперболический класс. Ручная вставка отрицательного знака считается предположением, а не выводом.
 
+Ω-TIME-028 показал: простая разность не порождает лоренцев знак, но конкретная симметричная двухканальная реляционная динамика может дать вещественный спектр `±g`, то есть минимальную двунаправленную характеристическую структуру.
+
+Ω-TIME-029 усилил этот результат: сопряжённая двухканальная система с одной и той же структурой связи даёт `q_ddot = g² q_xx`, реальную дисперсию `ω²=g²k²` и устойчивую положительную энергетическую форму. Это показывает структурную совместимость гиперболичности, второго порядка и устойчивости. Но это всё ещё модель, а не вывод физического пространства-времени.
+
 ## Next fundamental question
-Может ли знак и гиперболический класс возникнуть из минимального механизма конкурирующих/противонаправленных связей, ограничения границы или разности состояний — без предварительной вставки лоренцевой метрики? Это проверяется в Ω-TIME-028.
+Ω-TIME-030 должен проверить минимальность: какие свойства действительно необходимы для появления вещественного `±` спектра, какие можно удалить, и возникает ли выделенное направление/класс после coarse-graining и boundary conditions без ручного задания сигнатуры.
 
 ## Rule
 FACT → CHECK → RESULT → DECISION → FIXATION.

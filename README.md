@@ -33,6 +33,7 @@ SYSTEM-FOUNDATION → difference → boundary → state → relation → change 
 - Ω-TIME-029 — a minimal two-channel relational system can unify real ± characteristics, second-order wave dynamics, stability-compatible positive energy, and compatibility with a reconstructed temporal measure; universal Lorentzian geometry and absolute c remain OPEN.
 - Ω-TIME-030 — minimality control: for the two-channel class `A=[[0,a],[b,0]]`, real nonzero ± characteristics occur exactly when `ab>0`; one channel or `ab<0` fails to produce the required hyperbolic class. The origin of `ab>0` remains OPEN.
 - Ω-TIME-031 — structural derivation control: for a local two-channel system with positive quadratic resource `G>0` and conservation compatibility `GA=(GA)ᵀ`, nonzero mutual coupling forces `ab>0`; arbitrary coefficient averaging can destroy the effective sign, while coarse-graining that preserves the resource/conservation structure retains the class. The fundamental origin of `G>0` and conservation remains OPEN.
+- Ω-TIME-032 — deeper structural control: difference/boundary naturally generate a nonnegative quadratic relational measure `DᵀD`; pairwise exchange gives conservation by flux cancellation; with complete positive resource coverage and a shared symmetric coupling form, `ab>0` follows without manual sign insertion. Strict positivity, conservation as a fundamental law, and the unique origin of the shared coupling remain OPEN.
 
 ## Current synthesis
 Время пока наиболее строго описывается как мера согласованного изменения состояния вдоль причинно допустимой траектории. Это рабочая модель, а не окончательное утверждение о фундаментальной природе времени.
@@ -56,10 +57,12 @@ SYSTEM-FOUNDATION → difference → boundary → state → relation → change 
 
 Ω-TIME-030 уточнил минимальность: симметрия коэффициентов не нужна. Для двухканального класса достаточно `ab>0`; при удалении канала или смене знака произведения гиперболический класс исчезает. Однако само условие `ab>0` пока является свойством выбранного класса, а не выведенной аксиомой Ω.
 
-Ω-TIME-031 дал следующий структурный контроль: если два канала имеют положительную квадратичную ресурсную форму `G>0`, а динамика сохраняет этот ресурс через совместимость `GA=(GA)ᵀ`, то при ненулевой связи автоматически получается `ab>0`. Это связывает гиперболический знак с положительным сохраняемым ресурсом, а не с ручной вставкой знака. Но `G>0` и сам закон сохранения пока не выведены из более ранних Ω-принципов. Произвольное усреднение коэффициентов также не гарантирует сохранение класса; сохраняется именно структурный закон, а не любое арифметическое усреднение.
+Ω-TIME-031 дал структурный контроль: если два канала имеют положительную квадратичную ресурсную форму `G>0`, а динамика сохраняет этот ресурс через совместимость `GA=(GA)ᵀ`, то при ненулевой связи автоматически получается `ab>0`. Это связывает гиперболический знак с положительным сохраняемым ресурсом, а не с ручной вставкой знака. Но `G>0` и сам закон сохранения пока не выведены из более ранних Ω-принципов.
+
+Ω-TIME-032 продвинул цепочку глубже: квадрат различия `||Dq||²` автоматически даёт неотрицательную relational measure `DᵀD`; полнота различения нужна для строгой `G>0`. Pairwise exchange даёт conservation через взаимное сокращение потоков. Если обмен задаётся одной общей symmetric coupling form, совместимой с положительным ресурсом, то `ab>0` получается автоматически. При этом boundary/difference без полноты не гарантируют строгую положительность, competition без общего закона связи не фиксирует знак, а произвольное усреднение коэффициентов разрушает класс.
 
 ## Next fundamental question
-Ω-TIME-032 должен проверить, можно ли вывести `G>0` и conservation/resource law из более ранней цепочки `difference → boundary → relation → state → change → competition`, не вводя положительность и сохранение как новые аксиомы. Отдельно нужно проверить минимальные условия, при которых ресурсная форма становится неизбежно положительной.
+Ω-TIME-033 должен проверить минимальность самой конструкции ресурса. Сравнить `R=||Dq||²`, другие неотрицательные функции различия и нелинейные/графовые формы. Проверить, какие из них сохраняют conservation и `ab>0` после локальной динамики и coarse-graining. Цель — выяснить, является ли квадратичная форма `DᵀD` необходимой, или существует более широкий класс Ω-совместимых положительных ресурсов.
 
 ## Rule
 FACT → CHECK → RESULT → DECISION → FIXATION.

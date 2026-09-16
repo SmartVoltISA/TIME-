@@ -28,6 +28,7 @@ SYSTEM-FOUNDATION → difference → boundary → state → relation → change 
 - Ω-TIME-024 — a single structural Laplacian can participate in both effective inertia and stiffness in a model; speed becomes a secondary ratio, while the fundamental origin of both remains OPEN.
 - Ω-TIME-025 — causal cone as a spectral property of hyperbolic dynamics; orientation or antisymmetry alone is insufficient.
 - Ω-TIME-026 — shared relational structure can model both effective inertia and restoring response; the fundamental origin of both remains OPEN.
+- Ω-TIME-027 — reparameterization-invariant variational structure can reconstruct a temporal parameter from a trajectory without an independently inserted clock; it does not by itself derive Lorentzian signature or hyperbolicity.
 
 ## Current synthesis
 Время пока наиболее строго описывается как мера согласованного изменения состояния вдоль причинно допустимой траектории. Это рабочая модель, а не окончательное утверждение о фундаментальной природе времени.
@@ -42,6 +43,11 @@ SYSTEM-FOUNDATION → difference → boundary → state → relation → change 
 Ω-TIME-025 уточнил: причинный конус можно связать с вещественным характеристическим спектром локальной динамики. Кососимметричная связь сама по себе этого не даёт. Поэтому следующий фундаментальный вопрос — источник гиперболического класса динамики.
 
 Ω-TIME-026 проверил более сильную гипотезу: один и тот же relational operator может участвовать в эффективной инерции и восстановлении. Это работает математически, но пока не является выводом из Ω-фундамента.
+
+Ω-TIME-027 сделал следующий контроль: перепараметризационно-инвариантный вариационный принцип позволяет реконструировать времеподобный параметр из траектории и структурной меры. Но положительная вариационная структура не выбирает автоматически лоренцеву сигнатуру или гиперболический класс. Ручная вставка отрицательного знака считается предположением, а не выводом.
+
+## Next fundamental question
+Может ли знак и гиперболический класс возникнуть из минимального механизма конкурирующих/противонаправленных связей, ограничения границы или разности состояний — без предварительной вставки лоренцевой метрики? Это проверяется в Ω-TIME-028.
 
 ## Rule
 FACT → CHECK → RESULT → DECISION → FIXATION.

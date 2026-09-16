@@ -31,6 +31,7 @@ SYSTEM-FOUNDATION → difference → boundary → state → relation → change 
 - Ω-TIME-027 — reparameterization-invariant variational structure can reconstruct a temporal parameter from a trajectory without an independently inserted clock; it does not by itself derive Lorentzian signature or hyperbolicity.
 - Ω-TIME-028 — opposing symmetric relational channels can produce real ± characteristics; simple difference and antisymmetric coupling do not by themselves derive Lorentzian signature.
 - Ω-TIME-029 — a minimal two-channel relational system can unify real ± characteristics, second-order wave dynamics, stability-compatible positive energy, and compatibility with a reconstructed temporal measure; universal Lorentzian geometry and absolute c remain OPEN.
+- Ω-TIME-030 — minimality control: for the two-channel class `A=[[0,a],[b,0]]`, real nonzero ± characteristics occur exactly when `ab>0`; one channel or `ab<0` fails to produce the required hyperbolic class. The origin of `ab>0` remains OPEN.
 
 ## Current synthesis
 Время пока наиболее строго описывается как мера согласованного изменения состояния вдоль причинно допустимой траектории. Это рабочая модель, а не окончательное утверждение о фундаментальной природе времени.
@@ -52,8 +53,10 @@ SYSTEM-FOUNDATION → difference → boundary → state → relation → change 
 
 Ω-TIME-029 усилил этот результат: сопряжённая двухканальная система с одной и той же структурой связи даёт `q_ddot = g² q_xx`, реальную дисперсию `ω²=g²k²` и устойчивую положительную энергетическую форму. Это показывает структурную совместимость гиперболичности, второго порядка и устойчивости. Но это всё ещё модель, а не вывод физического пространства-времени.
 
+Ω-TIME-030 уточнил минимальность: симметрия коэффициентов не нужна. Для двухканального класса достаточно `ab>0`; при удалении канала или смене знака произведения гиперболический класс исчезает. Однако само условие `ab>0` пока является свойством выбранного класса, а не выведенной аксиомой Ω.
+
 ## Next fundamental question
-Ω-TIME-030 должен проверить минимальность: какие свойства действительно необходимы для появления вещественного `±` спектра, какие можно удалить, и возникает ли выделенное направление/класс после coarse-graining и boundary conditions без ручного задания сигнатуры.
+Ω-TIME-031 должен проверить, может ли условие `ab>0` возникнуть из более глубоких Ω-принципов — difference, boundary, competition, conservation/resource — без непосредственного задания знака коэффициентов, и насколько устойчив этот класс после coarse-graining.
 
 ## Rule
 FACT → CHECK → RESULT → DECISION → FIXATION.

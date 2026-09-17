@@ -1,0 +1,283 @@
+# Ω-TIME-039 — Can a whole be selected from relations without importing conservation?
+
+**Status:** PARTIAL STRUCTURAL PASS / UNIQUENESS FAIL / FUNDAMENTAL DERIVATION OPEN  
+**Date:** 2026-09-17
+
+## 1. Question
+
+Ω-TIME-038 showed that closure is relative to a chosen whole `W`. The next question is deeper:
+
+> Can `W` itself be obtained from difference/relation structure, without defining it through conservation, energy, time, or an arbitrary external boundary?
+
+Candidate rule tested here:
+
+`seed distinction → active relations → relational closure → whole`.
+
+This is deliberately weaker than a physical definition of an object.
+
+## 2. Relational-closure operator
+
+Let `G=(V,E)` be a graph of active relations. For a seed set `S⊆V`, define `Cl(S)` as the smallest set containing S such that whenever an active relation has one endpoint in `Cl(S)`, its other endpoint is also included.
+
+Equivalently, in an undirected relation graph, `Cl(S)` is the union of connected components touched by S.
+
+This uses only relation incidence. It does not use resource, conservation, metric distance, time, or dynamics.
+
+## 3. Numerical control
+
+Random undirected weighted relation graphs were generated with `n∈[4,13]` and edge probability `0.18`. A random one-node seed was expanded until no active edge crossed from the selected set to an excluded endpoint.
+
+471 nonempty random trials were obtained.
+
+Result:
+
+- maximum unresolved active boundary edges after closure: **0**;
+- relational closure became the entire graph in only **14.44%** of trials.
+
+Thus the closure operator does produce a well-defined relation-complete set around a seed, and it does not trivially collapse every case to the entire universe.
+
+**STRUCTURAL PASS.**
+
+## 4. Negative control A — arbitrary subsets
+
+For 1000 random 8-node graphs with edge probability `0.25`, random nontrivial subsets were selected without relational closure.
+
+**94.8%** of arbitrary subsets had at least one unresolved active relation crossing their boundary.
+
+Therefore arbitrary partitioning is generally not equivalent to relational completeness.
+
+**PASS as a negative control.**
+
+## 5. Negative control B — uniqueness of the whole
+
+For 1000 sparse 10-node random graphs with edge probability `0.08`, **99.7%** contained more than one connected relational component.
+
+Therefore relation structure alone generally does **not** select one unique global whole.
+
+It selects a family of closed relational components, or a component relative to a seed.
+
+**UNIQUENESS FAIL.**
+
+## 6. Seed dependence
+
+If several disconnected relational components exist, different seeds generate different closures.
+
+Hence
+
+`relations → unique whole`
+
+is false in general.
+
+The defensible statement is
+
+`relations + seed/context → minimal relationally complete whole`.
+
+The origin of the seed/context is therefore a new explicit open variable rather than something to hide inside the word “whole”.
+
+## 7. Directed relations
+
+For directed relations, several inequivalent closures exist:
+
+- forward reachability;
+- backward reachability;
+- weak connectivity;
+- strong connectivity;
+- closure under both endpoints of every represented event.
+
+These need not produce the same set.
+
+Therefore directionality introduces a criterion choice. Relation alone does not determine which closure notion is physically relevant.
+
+**OPEN.**
+
+## 8. Boundary interpretation
+
+After relational closure, no represented active relation is left half-inside/half-outside under the chosen endpoint-completeness rule.
+
+This gives a non-geometric boundary criterion:
+
+> a boundary is complete with respect to a relation class when every represented event of that class is either fully internal or fully external.
+
+This is stronger than arbitrary partitioning but weaker than physical isolation, because unrepresented relation classes may still cross the boundary.
+
+## 9. Multiple relation types
+
+Let relation classes be `E₁,E₂,...,E_k`.
+
+A set may be closed under `E₁` but open under `E₂`.
+
+Therefore closure is typed:
+
+`closure(W | relation class)`.
+
+A physical whole would require either:
+
+1. closure under all physically relevant relation classes; or
+2. an explicit hierarchy saying which classes may cross the boundary.
+
+This prevents a hidden leap from graph connectivity to physical objecthood.
+
+## 10. Dynamic relations
+
+If active relations change, `E=E(t)` or more generally `E(state)`, the relational closure can change as well.
+
+Thus a whole can merge, split, grow, or shrink without assuming a pre-existing immutable object boundary.
+
+This is structurally compatible with the Ω idea:
+
+`difference → relation → whole → feedback → changed difference → new whole`.
+
+But this test does not establish that this loop is a universal physical law.
+
+## 11. Memory control
+
+If memory changes which transitions/relations remain accessible, then it can change the closure generated by the same coarse observable state.
+
+Hence memory may affect identity/whole through future relational accessibility rather than through a separate metaphysical object label.
+
+This is compatible with the existing Ω memory candidate:
+
+`past → persistent modification → changed future possibilities`.
+
+Again, compatibility is not derivation.
+
+## 12. Coarse-graining control
+
+If microscopic nodes inside a relationally closed component are aggregated while all external incidences are preserved, the macro-node remains a valid representation of that component.
+
+If coarse-graining deletes or invents crossing relations, apparent closure can be created or destroyed artificially.
+
+Therefore preservation of incidence is required.
+
+**PARTIAL PASS.**
+
+## 13. What was derived and what was not
+
+### Derived structurally
+
+Given:
+
+- a set of represented relations;
+- a seed/context;
+- an endpoint-completeness rule;
+
+there exists a minimal relationally complete set `Cl(S)`.
+
+No conservation law is needed for this construction.
+
+### Not derived
+
+The construction does not determine:
+
+- why one seed/context is physically selected;
+- which relation classes are fundamental;
+- whether all relevant relations are represented;
+- why a relational component should have a scalar resource;
+- why it should persist as an identity;
+- why it should be dynamically stable;
+- why it should be closed to physical exchange;
+- a unique global whole.
+
+## 14. Consequence for Ω-TIME-038
+
+The step
+
+`relation → selected whole`
+
+can now be decomposed:
+
+`relation + seed/context + closure rule → minimal relationally complete whole`.
+
+This removes conservation from the definition of the whole.
+
+Then Ω-TIME-038 can operate on that selected level:
+
+`whole → internal/boundary incidence → boundary flux → conditional additive balance`.
+
+So the chain becomes:
+
+`difference`
+
+`→ relation`
+
+`→ seed/context`
+
+`→ relational closure`
+
+`→ whole at level L`
+
+`→ internal / external event classification`
+
+`→ closed incidence structure`
+
+`→ additive balance (if valuation exists)`
+
+`→ reciprocity`
+
+`→ positive-compatible coupling`
+
+`→ ab>0`
+
+`→ hyperbolic propagation`
+
+`→ causal admissibility`
+
+`→ temporal measure`.
+
+## 15. Critical negative result
+
+The experiment rejects the strong claim:
+
+> “Difference and relation automatically generate one unique whole.”
+
+They do not.
+
+At minimum, a context/seed or an equivalent selection principle is required whenever multiple disconnected or differently typed relational closures are possible.
+
+This is useful because it localizes the missing premise instead of hiding it.
+
+## 16. Decision
+
+### PASS
+
+- A minimal relationally complete whole can be constructed without conservation.
+- Relational closure removes unresolved edges of the represented relation class.
+- Arbitrary subsets usually fail this closure criterion.
+- The construction can be hierarchical and compatible with incidence-preserving coarse-graining.
+
+### FAIL
+
+- Relation alone selects a unique whole.
+- Connectivity alone defines a physical object.
+- Closure under one relation class implies closure under all physical interactions.
+- Relational closure automatically supplies resource, stability, conservation, or time.
+
+### OPEN
+
+- Origin of seed/context/selection.
+- Selection of physically relevant relation classes.
+- Directed closure criterion.
+- Persistence/identity of a changing whole.
+- Additive/nonnegative valuation.
+- Common reciprocal coupling.
+- Lorentzian geometry, universal `c`, invariant temporal measure `μ`.
+
+## 17. New fundamental boundary
+
+The bottleneck has narrowed again.
+
+Instead of
+
+`Ω-foundation → whole`,
+
+the unresolved bridge is now
+
+`Ω-foundation → context/selection + physically relevant relation class`.
+
+Conditional on those, relational closure can construct the whole without importing conservation.
+
+---
+
+**Anchor:** Ω-TIME-039  
+**Method:** relational closure, random graph controls, arbitrary-subset negative control, non-uniqueness attack, typed/directed relation controls.  
+**Status:** PARTIAL STRUCTURAL PASS / UNIQUENESS FAIL / FUNDAMENTAL DERIVATION OPEN
